@@ -1,0 +1,8 @@
+menu "Terminal LVGL Configuration"
+    config ESP_TERMINAL_V1_SUPPORT
+        bool "Enable Terminal N8R2 V1 Support"
+        default n
+        help
+            Defined for early Terminal V1 version N8R2 support.
+
+endmenu
