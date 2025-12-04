@@ -269,7 +269,6 @@ static esp_err_t app_lvgl_init(void)
 
 void app_lvgl_start(void)
 {
-
     /* LCD HW initialization */
     ESP_ERROR_CHECK(app_lcd_init());
 
